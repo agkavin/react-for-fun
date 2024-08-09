@@ -44,7 +44,7 @@ const router = createBrowserRouter([
 
 ],
 {
-  basename: "/react-for-fun/",
+  basename: "/react-for-fun",
 }
 );
 
