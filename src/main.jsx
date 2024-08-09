@@ -42,7 +42,11 @@ const router = createBrowserRouter([
     element: <List />
   }
 
-]);
+],
+{
+  basename: "/react-for-fun/",
+}
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
