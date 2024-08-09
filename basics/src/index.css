@@ -24,8 +24,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -65,4 +63,67 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.card .card-image {
+  max-width: 80%; 
+  height: auto; 
+}
+
+.card {
+  border: 1px solid #02f7fb;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #004546;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.button {
+  background-color: #02f7fb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.student {
+  border: 1px solid #17e9ec;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #177677;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.student h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-message {
+  color: #ebf1f1;
+  background-color: #13d81c;
+  border: 1px solid #0eb337;
+  border-radius: 10px;
+    padding: 20px;
+  margin: 10px;
+  max-width: fit-content;
+}
+
+.welcome-else-message {
+  color: #ebf1f1;
+  background-color: #e4160c;
+  border: 1px solid #ab220a;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  max-width: fit-content;
 }
